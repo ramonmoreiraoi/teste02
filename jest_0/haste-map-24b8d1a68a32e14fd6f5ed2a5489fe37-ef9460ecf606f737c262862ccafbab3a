@@ -1,0 +1,1 @@
+{"clocks":{},"files":{"/var/rotinas/test/teste02/package.json":["teste02",1592087762288,1,[]],"/var/rotinas/test/teste02/filtro/filtro.js":["",1592087500434,1,[]],"/var/rotinas/test/teste02/filtro/filtro.test.js":["",1592087475874,1,["./filtro"]]},"map":{"teste02":{"g":["/var/rotinas/test/teste02/package.json",1]}},"mocks":{}}

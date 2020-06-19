@@ -1,0 +1,60 @@
+------------------
+--- Bizu Teste ---
+------------------
+mkdir /var/rotinas/teste/teste02
+cd /var/rotinas/teste/teste02
+-- tem que esta na raiz, ele vai ler o package.json e varrer a estrutura de
+-- dir em busca de um*.teste.*
+npm t
+
+------------------
+--- Instalacao ---
+------------------
+# npm init
+name: (teste02) teste02                                                                                                 
+version: (1.0.0) 1.0.0                                                                                                  
+description: teste usando jest                                                                                          
+entry point: (index.js) index.js                                                                                        
+test command:                                                                                                           
+git repository:                                                                                                         
+keywords: jest                                                                                                          
+author: Ramon Moreira Lima                                                                                              
+license: (ISC) ISC                                                                                                      
+About to write to /var/rotinas/test/teste02/package.json:                                                               
+                                                                                                                        
+{                                                                                                                       
+  "name": "teste02",                                                                                                    
+  "version": "1.0.0",                                                                                                   
+  "description": "teste usando jest",                                                                                   
+  "main": "index.js",                                                                                                   
+  "scripts": {                                                                                                          
+    "test": "echo \"Error: no test specified\" && exit 1"                                                               
+  },                                                                                                                    
+  "keywords": [                                                                                                         
+    "jest"                                                                                                              
+  ],                                                                                                                    
+  "author": "Ramon Moreira Lima",                                                                                       
+  "license": "ISC"                                                                                                      
+}                                                                                                                       
+                                                                                                                        
+                                                                                                                        
+Is this ok? (yes) yes
+-- Iportante dar um istall do np globalmente para atualizalo                
+# npm install npm -g
+# npm install jest-cli --save-dev
+
+----------------------
+------ GIT --------
+_------------------------
+-- iniciar
+git init
+
+git add arquivo
+
+git commit -m "coment"
+
+-- log de mudancas
+git log
+-- status do que foi atualizado ou nao
+git staus 
+

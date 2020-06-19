@@ -1,0 +1,20 @@
+{
+  "name": "teste02",
+  "version": "1.0.0",
+  "description": "teste usando jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "Ramon Moreira Lima",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-cli": "^19.0.2"
+  },
+  "jest": {
+    "testEnviroment": "node"
+  }
+}
